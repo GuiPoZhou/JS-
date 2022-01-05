@@ -1,0 +1,63 @@
+.top-img {
+	margin-bottom: 40px;
+}
+.contact-title {
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.contact-content p {
+	font-size: 12px;
+	text-indent: 2em;
+	line-height: 24px;
+	color: #7d7d7d;
+}
+.contact-content p + p {
+	margin-top: 15px;
+}
+
+/* 下方联系方式 */
+.contact-method {
+	display: block;
+	margin-top: 40px;
+	background-color: #f6f6f6;
+}
+.left {
+	height: 343px;
+	width: 560px;
+}
+.left img {
+	height: 343px;
+	width: 560px;
+}
+.contact-method .left{
+	display: inline-block;
+	width: 580px;
+	height: 320px;
+}
+.contact-method .right {
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 30px;
+	
+}
+.contact-method .right img {
+	margin-bottom: 55px;
+}
+.right .title {
+	font-size: 16px;
+	color: #494949;
+	margin-bottom: 20px;
+}
+.right p + p {
+	margin-bottom: 15px;
+}
+.right .content {
+	font-size: 12px;
+	color: #6c6c6c;
+}
+.wall {
+	height: 80px;
+	background-color: #ffffff;
+}

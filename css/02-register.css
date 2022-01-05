@@ -1,0 +1,104 @@
+.center {
+	background-color: #FFFFFF;
+}
+.center-img {
+	margin-left: 350px;
+	padding-top: 45px;
+}
+.form-group label {
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	text-align: right;
+	font-size: 14px;
+	
+}
+.form-group {
+	margin-top: 20px;
+	margin-left: 340px;
+}
+.margin-top {
+	margin-top: 60px;
+}
+.form-group input {
+	border: 1px solid #E4E4E4;
+	width: 330px;
+	height: 30px;
+	padding: 10px;
+	border-radius: 1px;
+	margin-left: 10px;
+}
+#code {
+	width: 210px;
+}
+.form-group button {
+	display: inline-block;
+	height: 50px;
+	width: 100px;
+	background-color: #f6f6f6;
+	border: none;
+	color: #8a8a8a;
+	margin-left: 14px;
+	cursor: pointer;
+}
+/* 多选框 */
+.checkbox {
+	margin: 0 auto;
+	text-align: center;
+}
+.checkbox span {
+	margin-left: 5px;
+}
+.checkbox span a {
+	color: #009948;
+}
+.checkbox input {
+	margin-top: 15px;
+	margin-left: -100px;
+}
+.next_btn {
+	width: 330px;
+	height: 45px;
+	background-color: #009948;
+	color: white;
+	border: none;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 440px;
+	margin-bottom: 200px;
+	cursor: pointer;
+}
+/* 第三步 */
+.third-content {
+	margin-top: 60px;
+	text-align: center;
+}
+.third-content span {
+	margin-top: 30px;
+	display: block;
+	font-size: 18px;
+	color: #494949;
+}
+.third_step button {
+	height: 45px;
+	width: 120px;
+	display: inline-block;
+	text-align: center;
+	margin-top: 60px;
+	border-radius: 2px;
+	cursor: pointer;
+	margin-bottom: 100px;
+}
+.third_step .backMain {
+	margin-left: 40%;
+	color: #009948;
+	background-color: #009948;
+	border: 1px solid #009948;
+	color: white;
+}
+.third_step .VIP {
+	margin-left: 22px;
+	border: 1px solid #009948;
+	color: #009948;
+	background-color: white;
+}

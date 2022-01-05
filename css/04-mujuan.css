@@ -1,0 +1,175 @@
+.left {
+	float: left;
+	width: 800px;
+}
+/* 导航 */
+.daohang {
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+.daohang img {
+	vertical-align: middle;
+}
+.daohang span {
+	font-size: 12px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.tabCard {
+	padding-bottom: 15px;
+	border-bottom: 1px dashed   #ccc;
+}
+.tabCard p {
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+.tabCard  span {
+	display: inline-block;
+	padding: 8px 10px;
+	font-size: 12px;
+	border-radius: 5px;
+	color: #009948;
+	cursor: pointer;
+}
+.tabCard span + span {
+	margin-left: 5px;
+}
+.tabCard .active {
+	background-color: #009948;
+	color: white;
+}
+.tabCard span:hover {
+	background-color: #009948;
+	color: white;
+}
+/* 时间排序 */
+.setTime {
+	margin: 15px 0;
+}
+.setTime span {
+	font-size: 12px;
+}
+.setTime span:first-child {
+	color: #ec633b;
+}
+.setTime span img {
+	margin-left: 5px;
+}
+.setTime span + span {
+	margin-left: 10px;
+}
+.form-img {
+	width: 230px;
+	height: 170px;
+	margin-bottom: 15px;
+}
+.form-group-left {
+	display: inline-block;
+	width: 230px;
+	float: left;
+}
+.form-group-left .down{
+	background-color: #ccc;
+	cursor: no-drop;
+}
+.form-group-btn {
+	display: block;
+	border: none;
+	font-size: 14px;
+	width: 140px;
+	height: 40px;
+	color: white;
+	background-color: #009948;
+	text-align: center;
+	line-height: 40px;
+	margin: 0 auto;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.baoming {
+	background-color: #EC633B;
+}
+.form-img span {
+	position: absolute;
+}
+.form-img > img {
+	width: 230px;
+	height: 175px;
+}
+.form-group {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom:1px dashed   #CCCCCC;
+}
+.form-group-right {
+	margin-left: 20px;
+	display: inline-block;
+	width: 550px;
+	height: 225px;
+}
+.form-group-right p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.form-group-right > span {
+	color: #009948;
+	font-size: 12px;
+	
+}
+.form-group-right .xiangxi {
+	margin-left: 5px;
+	cursor: pointer;
+}
+/* 右边 */
+.right {
+	margin-top: 70px;
+	float: right;
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+}
+.right > p {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.news + p {
+	font-weight: bold;
+}
+.right .news p {
+	margin-bottom: 10px;
+}
+.news + .news {
+	border-top: 1px dashed #ccc;
+	padding-top: 20px;
+}
+
+/* 分页 */
+.fenye li{
+	width: 20px;
+	height: 20px;
+	margin-top: 30px;
+	padding: 5px;
+	color: #ccc;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	float: left;
+	text-align: center;
+	line-height: 20px;
+}
+.fenye  li {
+	cursor: pointer;
+}
+.fenye .active {
+	color: white;
+	background-color: #009948;
+}
+.fenye  li:hover {
+	color: white;
+	background-color: #009948;
+}
+.cantClick {
+	cursor: no-drop!important;
+	color: #ccc!important;
+	background-color: white!important;
+}

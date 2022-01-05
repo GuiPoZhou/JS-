@@ -1,0 +1,106 @@
+/* 顶部 */
+body {
+	background-color: #f8f8f8;
+}
+.top {
+	margin-top : 25px;
+	height: 80px;
+	background-color: #f8f8f8;
+}
+.top_img {
+	display: inline-block;
+}
+.top_btn {
+	display: inline-block;
+}
+.top_btn ul li {
+	float: left;
+	padding: 5px;
+	margin: 0 10px;
+	border-radius: 5px;
+	
+}
+.top_btn ul .active {
+	background-color: #009948;
+	color: white;
+}
+.top_btn ul  a {
+	display: inline-block;
+	color: black;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.top_btn ul a:hover {
+	background-color: #009948;
+	color: white;
+}
+.top_btn ul {
+	margin-left: 60px;
+}
+/* 搜索框 */
+.top_search {
+	display: inline-block;
+	position: relative;
+	bottom: 20px;
+	margin-left: 50px;
+}
+.top_search img {
+	position: relative;
+	left: -35px;
+	top: 4px;
+	cursor: pointer;
+}
+.top_search input {
+/* 	background-image: url(../img/shouye/icon.jpg);
+	background-repeat: no-repeat;
+	background-position: 180px; */
+	width: 200px;
+	height: 32px;
+	border-radius: 16px;
+	border: 1px solid #e6e6e6;
+	padding-left: 20px;	
+}
+/* 错误提示 */
+.errp {
+	display: none;
+	color: red;
+	font-size: 12px;
+	margin-left: 25px;
+}
+.bold {
+	font-size: 16px;
+	font-weight: 700;
+}
+/* 右侧按钮 */
+.top_search button {
+	margin-left: 10px;
+	width: 90px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	background-color: #009948;
+	color: white;
+	cursor: pointer;
+}
+.top_search .register {
+	border: 1px solid #009948;
+	background-color: white;
+	color: #009948;
+}
+/* 底部 */
+.alter {
+	height: 10px;
+	width: 100%;
+	background-color: white;
+}
+.bottom {
+	background-color: #F8F8F8;
+	margin-top: 45px;
+	margin-bottom: 40px;
+}
+.bottom p{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #959595;
+}

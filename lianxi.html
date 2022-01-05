@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>联系我们</title>
+		<link rel="shortcut icon" href="img/icon/ico.png">
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/projectCommon.css"/>
+		<link rel="stylesheet" type="text/css" href="css/lianxi.css"/>
+	</head>
+	<body>
+		<!-- 顶部 -->
+		<div class="top ">
+			<div class="container">
+				<div class="top_img">
+					<a href="03-main.html"><img src="img/index/logo.png" ></a>
+				</div>
+				<div class="top_btn">
+					<ul class="clearfix">
+						<a href="03-main.html" ><li>首页</li></a>
+						<a href="04-mujuan.html"><li>募捐活动</li></a>
+						<a href="06-1teamMain.html"><li>志愿者团队</li></a>
+						<a href="lianxi.html" class="active"><li>联系我们</li></a>
+					</ul>
+				</div>
+				<div class="top_search  clearfix">
+					<input type="text" placeholder="搜索助残活动"/>
+					<img src="img/shouye/icon.jpg" >
+					<a href="01-Login.html"><button class="login">用户登录</button></a>
+					<a href="02-register.html"><button class="register">用户注册</button></a>
+				</div>
+			</div>
+		</div>
+		<div style="background-color: #FFFFFF;">
+			<div class="container">
+				<div class="top-img">
+					<img src="img/contact.jpg" >
+				</div>
+				<!-- 标题 -->
+				<div><p class="contact-title">海南省残疾人联合会简介</p></div>
+				<div class="contact-content">
+					<p>海南省残疾人联合会是经省政府批准于1988年11月正式成立的、将残疾人自身代表组织、社会福利团体和事业管理机构融为一体的全省性残疾人人民团体，为中国残疾人联合会的地方组织 。海南省残疾人联合会由海南省政府领导，业务上接受中国残联的指导，具有代表、服务、管理三种职能：代表残疾人的共同利益，维护残疾人的合法权益；团结教育残疾人，为残疾人服务；履行政府委托的部分行政职能，管理和发展残疾人事业。</p>
+					<p>海南省残疾人联合会机关的主要任务是：</p>
+					<p>（一）研究制订我省残疾人发展规划及工作计划；参与残疾人事业的法规、政策的制定、修订并组织实施；协调指导全省各级残联开展业务工作。</p>
+					<p>（二）听取残疾人的意见，反映残疾人需求，维护残疾人权益，为残疾人服务。</p>
+					<p>（三）团结教育残疾人，帮助他们树立自尊、自信、自强、自立意识，做遵纪守法公民，发扬乐观进取精神，为社会主义建设贡献力量。</p>
+					<p>（四）弘扬人道主义、宣传残疾人事业，沟通政府、社会与残疾人之间的联系，营造全社会理解、尊重、关心、帮助残疾人的氛围。</p>
+					<p>（五）开展残疾人康复、教育、劳动就业、扶贫、文化、教育、科研、用品用具供应、社会服务、无障碍设施和残疾人预防工作，创造良好的环境和条件，扶助残疾人平等参与社会生活。</p>
+					<p>（六）承担省政府残疾人工作委员会的日常工作，做好综合、组织、协调和服务。</p>
+					<p>（七）负责残疾人事业募捐和资金使用管理。</p>
+					<p>（八）指导和管理各类残疾人社团组织。</p>
+					<p>（九）开展残疾人事业的国内外交流与合作。</p>
+					<p>（十）承担省委、省政府和中国残联交办的其他工作。工作者的培训计划；调查残疾人状况，管理和发放残疾人证；联络、教育、培养、表彰残疾人；指导基层和社区残疾人工作，组织志愿者助残活动；承担省残联评议委员会和残疾人专门协会的日常工作。</p>
+				</div>
+				<div class="contact-method">
+					<div class="left" id="left">
+						
+					</div>
+					<div class="right">
+						<p class="title">海南省残疾人联合会</p>
+						<p class="content">办公地址：海口市海府路24号海汽大厦8楼</p>
+						<p class="content">服务电话：0898-65256298</p>
+						<p class="content">海南残联微信公众号：</p>
+						<img src="img/erweima.jpg" >
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wall"></div>
+		<!-- 底部 -->
+		<div class="container">
+			<div class="bottom">
+				<p>主办单位：海南省残疾人联合会 地址：海南省海口市海府路24号海汽大厦7-8-9楼</p>
+				<p>Copyright&copy; 2016 海南残联智慧平台 All Rights Reserved</p>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&type=webgl&ak=dGLcZDh7IQ4GdAv7CVnzkx1GaRX2Xmvr"></script>
+	<script type="text/javascript">
+		var map = new BMapGL.Map('left');
+		var point = new BMapGL.Point(110.361029,20.036017);
+		map.centerAndZoom(point,19);
+		map.enableScrollWheelZoom(true);
+		map.setHeading(64.5);   //设置地图旋转角度
+		map.setTilt(73);       //设置地图的倾斜角度
+		
+		// 禁止地图旋转和倾斜可以通过配置项进行设置
+		var map = new BMapGL.Map("allmap",{
+		    enableRotate: false,
+		    enableTilt: false
+		});
+	</script>
+</html>

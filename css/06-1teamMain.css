@@ -1,0 +1,504 @@
+.user {
+	margin-top: 10px;
+	float: right;
+	font-size: 12px;
+	margin-left: 150px;
+	color: #a2a2a2;
+}
+.user span:last-child {
+	cursor: pointer;
+} 
+.user span + span {
+	margin-left: 15px;
+}
+.user span:first-child {
+	margin-right: 15px;
+}
+.team-main {
+	padding-top: 40px;
+	background-color: #ffffff;
+}
+.team-main .left {
+	float: left;
+	width: 20%;
+	display: inline-block;
+}
+.team-main .left button {
+	width: 200px;
+	height: 40px;
+	color: #666666;
+	background-color: #ffffff;
+	border: none;
+	border-radius: 1px;
+	text-align: left;
+	padding-left: 20px;
+	cursor: pointer;
+}
+.team-main .left .active {
+	color: white;
+	background-color: #009948;
+}
+.team-main .left button:hover {
+	color: white;
+	background-color: #009948;
+}
+.left div {
+	margin-bottom: 20px;
+}
+.left div img {
+	vertical-align: middle;
+	
+}
+.left div span {
+	font-size: 16px;
+	margin-left: 15px;
+}
+/* 右边 */
+.right {
+	float: right;
+	width: 80%;
+}
+.person {
+	background-color: #F6F6F6;
+	height: 160px;
+}
+.person > img {
+	margin: 40px 20px 40px;
+}
+.xinxi {
+	display: inline-block;
+	position: relative;
+	bottom: 55px;
+}
+.xinxi p {
+	color: #333333;
+	font-size: 14px;
+}
+.xinxi p + p {
+	margin-top: 20px;
+}
+.xinxi img{
+	vertical-align: middle;
+}
+.create-team {
+	position: relative;
+	margin-left: 450px;
+	bottom: 72px;
+	width: 140px;
+	height: 40px;
+	background-color: #009948;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+}
+.create-team img {
+	padding-right: 5px;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+/*  */
+.join-team {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.team-title {
+	margin-left: 20px;
+	font-size: 16px;
+	color: #333333;
+	font-weight: 800;
+}
+.check-all {
+	float: right;
+	margin-right: 20px;
+	font-size: 12px;
+	color: #7d7d7d;
+	cursor: pointer;
+}
+/* 表格 */
+.bg-green {
+	background-color: #009948;
+	color: white;
+}
+.bg-origin {
+	background-color: #ec633b!important;
+	color: white;
+}
+.bg-blue {
+	background-color: #3993c4;
+	color: white;
+}
+.bg-zise {
+	background-color: #5c6bc0;
+	color: white;
+}
+.origin-color {
+	color: #EC633B!important;
+}
+table tr  .font-green {
+	color: #009948!important;
+}
+table tr  .font-origin {
+	color: #EC633B!important;
+}
+
+table {
+	margin-bottom: 60px;
+}
+table tr td .teamname {
+	width: 150px;
+	overflow: hidden;
+}
+.right tr td img {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+.right tr td {
+	color: #959595;
+	text-align: left;
+	font-size: 12px;
+}
+.right tr td:first-child {
+	padding-left: 20px;
+}
+.right tr th {
+	text-align: left;
+	font-size: 12px;
+}
+.right tr th:first-child {
+	padding-left: 20px;
+}
+.right tr td button {
+	width: 50px;
+	height: 30px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 12px;
+}
+.right tr td:last-child {
+	width: 150px;
+	padding-right: 10px;
+}
+table tr th, table tr td {
+	height: 60px;
+	width: 150px;
+}
+table tr:nth-child(even) {
+	background-color: #F6F6F6;
+}
+
+/* 加入的志愿者团队 */
+.team-jiaru p {
+	font-size: 12px;
+}
+.team-jiaru span {
+	margin-left: 10px;
+}
+.team-jiaru p img {
+	vertical-align: middle;
+}
+.team-jiaru .table-title {
+	font-size: 16px;
+	margin-top: 50px;
+	padding-left: 20px;
+	pointer-events: none;
+}
+.team-jiaru .table-title img {
+	vertical-align: middle;
+	margin-left: -20px;
+	margin-right: 10px;
+}
+.team-jiaru  .search-input {
+	padding-left: 10px;
+	margin-top: 20px;
+	color: #7d7d7d;
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+.search-input > button {
+	margin-left: 20px;
+	width: 90px;
+	height: 30px;
+	cursor: pointer;
+	background-color: #F6F6F6;
+	border: none;
+	border-radius: 5px;
+	color: #6b6b6b;
+}
+.team-jiaru .search-input input, .team-jiaru .search-input select {
+	width: 140px;
+	height: 25px;
+	padding-left: 10px;
+}
+.team-jiaru .search-input input + input, .team-jiaru .search-input select {
+	margin-left: 30px;
+}
+/* 分页 */
+.fenye {
+	padding-bottom: 60px;
+}
+.fenye li{
+	width: 20px;
+	height: 20px;
+	margin-top: 30px;
+	padding: 5px;
+	color: #ccc;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	float: left;
+	text-align: center;
+	line-height: 20px;
+}
+.fenye  li {
+	cursor: pointer;
+}
+.fenye .active {
+	color: white;
+	background-color: #009948;
+}
+.fenye  li:hover {
+	color: white;
+	background-color: #009948;
+}
+.cantClick {
+	cursor: no-drop!important;
+	color: #ccc!important;
+	background-color: white!important;
+}
+/* 我的志愿者团队 */
+.my-team > button {
+	width: 90px;
+	height: 30px;
+	border: none;
+	background-color: #009948;
+	color: white;
+	margin-left: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 12px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.my-team button img {
+	width: 14px;
+	height: 14px;
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.bottom {
+	padding-top: 45px;
+}
+.my-team .my-team-table tr td:first {
+	width: 150px;
+}
+.my-team .my-team-table tr td{
+	background-color: #f6f6f6;
+}
+.my-team .my-team-table tr td:last-child {
+	width: 240px;
+}
+.my-team .my-team-table tr td button {
+	width: 60px;
+	height: 30px;
+}
+
+/* 创建团队 */
+.team-create form {
+	margin-top: 60px;
+}
+.team-create form input {
+	padding-left: 5px;
+}
+.team-create form p {
+	margin-top: 20px;
+	font-size: 14px;
+	color: #9a9a9a;
+}
+.w360-h45 {
+	width: 360px;
+	height: 45px;
+}
+.team-describe {
+	width: 800px;
+	height: 240px;
+	padding-left: 10px;
+	padding-top: 5px;
+	resize: none;
+	vertical-align: middle;
+}
+#file {
+	opacity: 0;
+}
+.form-btn {
+	margin-top: 30px;
+	position: relative;
+}
+.form-btn input {
+	width: 145px;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+}
+.form-btn input:first-child {
+	margin-left: 70px;
+}
+.form-btn input + input {
+	margin-left: 20px;
+}
+
+/* 弹出框 */
+.dialog {
+	transition: all 1s;
+	display: none;
+	width: 420px;
+	height: 340px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,1);
+	border: 2px solid #009948;
+	z-index: 999;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.dialog .active {
+	background-color: #009948;
+	color: white;
+}
+
+.dialog .header {
+	margin-top: 80px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.dialog .content {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-left: 60px;
+	margin-right: 70px;
+	text-indent: 2em;
+	font-size: 14px;
+	color: #989898;
+	line-height: 21px;
+}
+.dialog button{
+	cursor: pointer;
+	width: 120px;
+	height: 45px;
+	border: 1px solid #009948;
+	color: #009948;
+	background-color: white;
+	
+}
+/* 活动管理 */
+.right .huodong .huodong-table-title {
+	margin-top: 50px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.huodong button {
+	margin-top: 30px;
+	width: 90px;
+	height: 30px;
+	font-size: 12px;
+	background-color: #009948;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.huodong button img{
+	width: 14px;
+	height: 14px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.huodong .input-daohang span {
+	font-size: 12px;
+	color: #9a9a9a;
+	margin-left: 20px;
+}
+.huodong .input-daohang span:first-child {
+	margin-left: 0;
+}
+.huodong .input-daohang select {
+	width: 80px;
+	height: 25px;
+	text-align: center;
+	font-size: 12px;
+	color: #6b6b6b;
+}
+
+.huodong .huodong-check {
+	margin-left: 20px;
+	font-weight: bold;
+	width: 55px;
+	height: 25px;
+	background-color: #f6f6f6;
+	color: #6b6b6b;
+	border-radius: 3px;
+}
+.huodong table tr td {
+	font-size: 12px;
+}
+.huodong table tr td:last-child {
+	width: 160px;
+}
+.huodong table tr td button {
+	margin: 0;
+	width: 65px;
+	height: 30px;
+}
+
+
+
+.errp {
+	color: red!important;
+	margin-left: 70px;
+}
+.skip {
+	float: right;
+	padding: 5px;
+	letter-spacing: 5px;
+	margin-top: 30px;
+}
+.xiugaispan {
+	display: none;
+	position: relative;
+	bottom: 20px;
+}
+.xiugaispan2{
+	display: none;
+	position: relative;
+	left: 250px;
+	bottom: 16px;
+}
+
+.xiugai {
+	position: absolute;
+	display: none;
+}
+.form-btn .submit {
+	margin-left: 70px;
+}
+#reset {
+	position: relative;
+	left: 150px;
+	bottom: 30px;
+}
+/* 阴影 */
+.shadow {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0,0,0,.5);
+	z-index: 900;
+}

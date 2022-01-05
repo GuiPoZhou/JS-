@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>海南残联-注册</title>
+		<link rel="shortcut icon" href="img/icon/ico.png">
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/projectCommon.css" />
+		<link rel="stylesheet" type="text/css" href="css/02-register.css" />
+	</head>
+	<body>
+		<div class="top ">
+			<div class="container">
+				<div class="top_img">
+					<a href="02-main.html"><img src="img/index/logo.png"></a>
+				</div>
+				<div class="top_btn">
+					<ul class="clearfix">
+						<a href="03-main.html" class="active"><li>首页</li></a>
+						<a href="04-mujuan.html"><li>募捐活动</li></a>
+						<a href="06-1teamMain.html"><li>志愿者团队</li></a>
+						<a href="lianxi.html"><li>联系我们</li></a>
+					</ul>
+				</div>
+				<div class="top_search  clearfix">
+					<input type="text" placeholder="搜索助残活动" />
+					<img src="img/shouye/icon.jpg">
+					<a href="01-Login.html"><button class="login">用户登录</button></a>
+					<a href="02-register.html"><button class="register">用户注册</button></a>
+				</div>
+			</div>
+		</div>
+		<!-- 注册中心 -->
+		<div class="center">
+			<!-- 第一步 -->
+			<div class="container">
+
+				<div class="center-img">
+					<img src="img/a.png" class="changeImg">
+				</div>
+				<div class="first_step" >
+					<div class="form-group margin-top">
+						<label for="phone">手机号</label>
+						<input type="text" id="phone" placeholder="请输入您的手机号" oninput="value=value.replace(/[^\d]/g,'')">
+						<p class="errp" style="display: none;"></p>
+					</div>
+					<div class="form-group">
+						<label for="code">短信验证码</label>
+						<input type="text" id="code" placeholder="数字验证码">
+						<button class="code">获取验证码</button>
+						<p class="errp" style="display: none;"></p>
+					</div>
+					<div class="checkbox">
+						<input type="checkbox" class="checked" checked="checked" />
+						<span>我同意 <a href="javascript:;">《智慧平台注册协议》</a></span>
+						<p class="errp" style="display: none;"></p>
+					</div>
+				</div>
+
+				<!-- 第二步 -->
+				<div class="second_step" style="display: none;">
+					<div class="form-group margin-top">
+						<label for="user">用户名</label>
+						<input type="text" id="user" placeholder="请输入您的用户名">
+						<p class="errp" style="display: none;"></p>
+					</div>
+					<div class="form-group">
+						<label for="pwd">设置密码</label>
+						<input type="password" id="pwd" placeholder="请设置登录密码">
+						<p class="errp" style="display: none;"></p>
+					</div>
+					<div class="form-group">
+						<label for="confirmPwd">确认密码</label>
+						<input type="password" id="confirmPwd" placeholder="请再次输入登录密码">
+						<p class="errp" style="display: none;"></p>
+					</div>
+				</div>
+				<!-- 第三步 -->
+				<div class="third_step"style="display: none;">
+					<div class="third-content">
+						<img src="img/wancheng.png" >
+						<span>恭喜您，完成注册</span>
+					</div>
+					<a href="03-main.html"><button type="button" class="backMain">返回首页</button></a>
+					<a href="404.html"><button type="button" class="VIP">会员中心</button></a>
+				</div>
+				
+				<button class="next_btn">下一步</button>
+			</div>
+		</div>
+		<!-- 底部 -->
+		<div class="container">
+			<div class="bottom">
+				<p>主办单位：海南省残疾人联合会 地址：海南省海口市海府路24号海汽大厦7-8-9楼</p>
+				<p>Copyright&copy; 2016 海南残联智慧平台 All Rights Reserved</p>
+			</div>
+		</div>
+	</body>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/02-register.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		// 获取验证码
+		getCode('.code');
+		
+	</script>
+</html>

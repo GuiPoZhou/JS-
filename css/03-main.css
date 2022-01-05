@@ -1,0 +1,186 @@
+/* 轮播图 */
+.lunbo {
+	position: relative;
+	margin-top: 10px;
+	height: 350px;
+	width: 100%;
+	
+}
+.screen {
+	overflow: hidden;
+	width: 100%;
+	height: 360px;
+	position: relative;
+}
+.screen .ul img {
+	height: 360px;
+	float: left;
+}
+.screen .ul {
+	width: 7680px;
+	position: absolute;
+	left: 0;
+}
+.screen ol {
+	position: absolute;
+	top: 320px;
+	left: 20%;
+	height: 10px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, .3);
+	z-index: 2;
+}
+.screen ol li {
+	float: left;
+	width: 5px;
+	height: 5px; 
+	margin: .5px 5px;   
+	border-radius: 2.5px;
+	border: 1px solid #cdccc6;
+	background-color: #cdccc6;
+	cursor: pointer;
+}
+.screen ol .active {
+	border: 1px solid #fff;
+	background-color: #fff;
+}
+/* 求助 */
+.help {
+	width: 340px;
+	height: 360px;
+	position: absolute;
+	right: 350px;
+	top: 0;
+	background-color: rgba(234,230,225,.8);
+}
+.help p {
+	color: #333333;
+	font-size: 16px;
+	margin-bottom: 15px;
+	margin-left: 40px;
+}
+.cishu {
+	margin-top: 55px;
+}
+.help .cishu-num {
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 35px;
+}
+.help .money-num {
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 40px;
+	
+}
+.cishu-color {
+	color: #009948;
+}
+.money-color {
+	color: #ec633b;
+}
+.help-btn {
+	display: block;
+	margin-left: 40px;
+	width: 260px;
+	height: 50px;
+	background-color: #009948;
+	border-radius: 2px;
+	text-align: center;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+/* 卡片标题 */
+.title {
+	padding-top: 35px;
+	height: 60px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #8c8c8c;
+}
+.title .green {
+	float: left;
+	display: inline-block;
+	width: 5px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #009948;
+}
+.action {
+	float: left;
+	display: inline-block;
+	font-size: 24px;
+	padding-left: 10px;
+	
+}
+.search-all {
+	display: inline-block;
+	float: right;
+	color: #8c8c8c;
+	cursor: pointer;
+}
+.search-all img {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+/* 卡片 */
+.card {
+	float: left;
+	display: inline-block;
+	height: 360px;
+	width: 270px;
+}
+.card + .card {
+	margin-left: 40px;
+}
+.card .card-img {
+	width: 270px;
+	height: 200px;
+	overflow: hidden;
+}
+.card .card-img img {
+	transition: all 2s;
+}
+.card .card-img img:hover {
+	transform: scale(1.5);
+}
+.card .card-img span {
+	height: 30px;
+	text-align: right;
+	width: 100%;
+	line-height: 30px;
+	display: inline-block;
+	position: relative;
+	left: -10px;
+	top: -35px;
+	overflow: hidden;
+	color: white;
+	padding-right: 10px;
+	font-size: 12px;
+	background-color: rgba(168,167,165,.4);
+}
+.card p {
+	margin-left: 20px;
+}
+.card .p-1 {
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 20px;
+}
+.card .p-2 {
+	font-size: 12px;
+	color: #D3D3D3;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+.card .p-3 {
+	font-size: 12px;
+	color: #D3D3D3;
+	
+}
+.card .card-border {
+	border: 1px solid #CDCCC6;
+	border-top: none;
+	padding-bottom: 20px;
+}

@@ -1,0 +1,32 @@
+.center img{
+	margin-top: 150px;
+	margin-left: 190px;
+	text-align: center;
+	display: inline-block;
+}
+.center button {
+	width: 120px;
+	height: 40px;
+	background-color: white;
+	color: #009948;
+	border: 1px solid #009948;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	right: 340px;
+	top: 40px;
+	margin-bottom: 180px;
+	font-size: 14px;
+}
+.center button + button {
+	margin-left: 30px;
+}
+.center .active {
+	background-color: #009948;
+	color: white;
+}
+.center button:hover {
+	background-color: #009948;
+	color: white;
+}

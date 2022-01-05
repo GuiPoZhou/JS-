@@ -1,0 +1,165 @@
+.daohang {
+	padding-top: 20px;
+	margin-bottom: 30px;
+	font-size: 12px;
+	color: #7d7d7d;
+}
+
+.form-img {
+	width: 384px;
+	height: 300px;
+}
+.form-img > img{
+	width: 384px;
+	height: 288px;
+}
+.form-img span {
+	position: absolute;
+}
+.left {
+	display: inline-block;
+}
+.form-group {
+	display: inline-block;
+}
+.form-group-left {
+	display: inline-block;
+	float: left;
+}
+.form-group-right {
+	margin-left: 20px;
+	display: inline-block;
+	width: 400px;
+	height: 225px;
+}
+
+.form-group-right p:first-child {
+	margin-bottom: 30px;
+}
+.form-group-right p {
+	padding-bottom: 12px;
+}
+.form-group-right p+p {
+	margin-left: 10px;
+}
+.form-group-right button {
+	margin-left: 10px;
+	font-size: 14px;
+	background-color: #009948;
+	color: white;
+	height: 40px;
+	width: 140px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+/* 右边新闻 */
+.right {
+	margin-top: 70px;
+	float: right;
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+}
+.right > p {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.news + p {
+	font-weight: bold;
+}
+.right .news p {
+	margin-bottom: 10px;
+}
+.news + .news {
+	border-top: 1px dashed #ccc;
+	padding-top: 20px;
+}
+
+/* 项目详情 */
+.touming {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border: 10px solid ;
+	border-color: transparent transparent white transparent;
+	top: 38px;
+	left: 20px;
+	z-index: 999;
+}
+.sanjiao {
+	display: inline;
+	width: 0;
+	height: 0;
+	border: 12px solid #ccc;
+	border-color: transparent transparent #ccc transparent; 
+	position: relative;
+	top: 24px;
+	left: 18px;
+}
+.xiangqing-card {
+	position: relative;
+	margin-top: 40px;
+	
+}
+.xiangqing-card > p {
+	font-size: 16px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+}
+/* 表格 */
+table {
+	margin-top: 30px;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+table td {
+	text-align: center;
+	white-space: nowrap;
+	border: 1px solid #ccc;
+}
+.tab-title {
+	padding: 10px;
+	font-size: 12px;
+	background-color: #f4f4f4;
+	color: #797979;
+}
+.tab-content {
+	padding-left: 30px;
+	text-align: left;
+	color: #7b7b7b;
+	background-color: #fafafa;
+	font-size: 12px;
+	width: 300px;
+	height: 40px;
+}
+/* 图片盒子 */
+.img-box {
+	margin-top: 30px;
+	width: 100%;
+}
+.img-box img {
+	width: 273px;
+	height: 202px;
+	float: left;
+}
+.img-box img + img {
+	margin-left: 10px;
+}
+.xiangqing-wenben {
+	width: 840px;
+	margin-top: 30px;
+}
+.xiangqing-wenben p {
+	text-indent: 2em;
+	letter-spacing: 1px;
+	font-size: 12px;
+	color: #7D7D7D;
+}
+.xiangqing-wenben p + p {
+	margin-top: 15px;
+}
+.xiangqing-wenben p:last-child {
+	margin-bottom: 60px;
+}

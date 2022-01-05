@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>募捐活动-支付</title>
+		<link rel="shortcut icon" href="img/icon/ico.png">
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/projectCommon.css"/>
+		<link rel="stylesheet" type="text/css" href="css/05-1pay.css"/>
+	</head>
+	<body>
+		<!-- 顶部 -->
+		<div class="top">
+			<div class="container">
+				<div class="top_img">
+					<a href="03-main.html"><img src="img/index/logo.png"></a>
+				</div>
+				<div class="top_btn">
+					<ul class="clearfix">
+						<a href="03-main.html"><li>首页</li></a>
+						<a href="04-mujuan.html"  class="active"><li>募捐活动</li></a>
+						<a href="06-1teamMain.html"><li>志愿者团队</li></a>
+						<a href="lianxi.html"><li>联系我们</li></a>
+					</ul>
+				</div>
+				<div class="top_search  clearfix">
+					<input type="text" placeholder="搜索助残活动" />
+					<img src="img/shouye/icon.jpg">
+					<a href="01-Login.html"><button class="login">用户登录</button></a>
+					<a href="02-register.html"><button class="register">用户注册</button></a>
+				</div>
+			</div>
+		</div>
+		<div style="background-color: white;">
+			<div class="container">
+				<div class="pay-1">
+					<p class="zhifu-p">残联公益平台感谢您的爱心捐赠！</p>
+					<div class="zhifu-jiemian clearfix">
+						<div class="zhifu-left">
+							<img src="img/xiangqing.jpg" >
+							<p class="bold pay-title"><span>【<span class="mu-type">康复</span>】</span><span class="mu-title">失智老人的艺术治疗</span></p>
+							<p class="font-12">项目时间: <span class="mu-time">2016-05-13 至 2016-12-01</span></p>
+							<p class="font-12">发起机构: <span class="mu-jigou">小太阳助困志愿者团队</span></p>
+							<p class="font-12">活动地点: <span class="mu-place">海口市秀英区养老院</span></p>
+							<p class="font-12">筹款目标: <span class="mu-target orgin-color bold">60000.00</span>元</p>
+							<p class="font-12">参捐人数: <span class="mu-people green-color">842</span>人</p>
+						</div>
+						<div class="zhifu-right">
+							<p class="pay-method">付款方式:
+							<button class="active wechat" ><img src="img/icon/wechat.png" >
+							<span>微信支付</span></button>
+							<button class="wechat"><img src="img/icon/zhifubao.png" ><span>支付宝</span></button></p>
+							<p>捐款金额: <input type="text" id="money" oninput="value=value.replace(/[^\d]/g,'')">元</p>
+							<p class="errp"></p>
+							<p>捐款署名: <input type="text" id="shuming" oninput="value=value.replace(/[, ]/g,'')"><input type="checkbox" onclick="isChange()" class="checkbox"/><span class="font-12">匿名捐赠</span></p>
+							<p class="errp"></p>
+							<button class="pay-submit">我要捐款</button>
+						</div>
+					</div>
+				</div>
+				<div class="pay-2">
+					<img src="img/wancheng.png" >
+					<p class="bold pay-success">您的爱心捐助已完成!</p>
+					<p class="pay-money font-12">您所捐助的<span class="jine orgin-color bold">100.00</span>  元已成功转入残联公益平台的官方账号</p>
+					<p class="pay-thanks font-12">我们将把您的爱心第一时间送达受捐助人身边，您的善举，将在她们心中留下弥足珍贵的印记。</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 页脚 -->
+		<div class="container">
+			<div class="bottom">
+				<p>主办单位：海南省残疾人联合会 地址：海南省海口市海府路24号海汽大厦7-8-9楼</p>
+				<p>Copyright&copy; 2016 海南残联智慧平台 All Rights Reserved</p>
+			</div>
+		</div>
+	</body>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/05-pay.js" type="text/javascript" charset="utf-8"></script>
+</html>

@@ -1,0 +1,202 @@
+/* 顶部 */
+.top {
+	margin-top: 25px;
+	height: 80px;
+}
+.top_img {
+	display: inline-block;
+}
+.top_btn {
+	display: inline-block;
+}
+.top_btn ul li {
+	float: left;
+	padding: 5px;
+	margin: 0 10px;
+	border-radius: 5px;
+	
+}
+.top_btn ul a:hover {
+	background-color: #009948;
+	color: white;
+}
+.top_btn ul .active {
+	background-color: #009948;
+	color: white;
+}
+.top_btn ul  a {
+	display: inline-block;
+	color: black;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.top_btn ul {
+	margin-left: 60px;
+}
+/* 搜索框 */
+.top_search {
+	display: inline-block;
+	position: relative;
+	bottom: 20px;
+	margin-left: 50px;
+}
+.top_search img {
+	position: relative;
+	left: -35px;
+	top: 4px;
+	cursor: pointer;
+}
+.top_search input {
+/* 	background-image: url(../img/shouye/icon.jpg);
+	background-repeat: no-repeat;
+	background-position: 180px; */
+	width: 200px;
+	height: 32px;
+	border-radius: 16px;
+	border: 1px solid #e6e6e6;
+	padding-left: 20px;	
+}
+/* 右侧按钮 */
+.top_search button {
+	margin-left: 10px;
+	width: 90px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	background-color: #009948;
+	color: white;
+	cursor: pointer;
+}
+.top_search .register {
+	border: 1px solid #009948;
+	background-color: white;
+	color: #009948;
+}
+/* banner */
+.box .active {
+	color: #009948;
+	border-bottom-color: #009948;
+}
+.banner {
+	height: 700px;
+	width: 100%;
+	background-image: url(../img/bg2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+.box {
+	color: white;
+	display: inline-block;
+	margin-top: 10%;
+	margin-left: 70%;
+	width: 360px;
+	height: 350px;
+	background-color: #332323;
+}
+.box span {
+	display: inline-block;
+	width: 49%;
+	height: 58px;
+	color: white;
+	text-align: center;
+	line-height: 60px;
+	border-bottom: 2px solid white ;
+	cursor: pointer;
+}
+.box input {
+	width: 250px;
+	height: 44px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 25px;
+	
+}
+.box .input_phone {
+	background-image: url(../img/yonghu.png);
+	background-repeat: no-repeat;
+	padding-left: 50px;
+}
+.box .input_pwd {
+	background-image: url(../img/mima.png);
+	background-repeat: no-repeat;
+	padding-left: 50px;
+}
+.box .forget_pwd {
+	display: inline-block;
+	margin-left: 250px;
+	margin-top: 10px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.box .login_btn {
+	width: 300px;
+	height: 45px;
+	line-height: 45px;
+	background-color: #009948;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-left: 7%;
+	letter-spacing: 5px;
+	cursor: pointer;
+}
+.box .free_register a{
+	color: white;
+	display: inline-block;
+	margin-left: 278px;
+	margin-top: 16px;
+	font-size: 12px;
+	cursor: pointer;
+}
+/* 错误提示 */
+.errp {
+	display: none;
+	color: red;
+	font-size: 12px;
+	margin-left: 25px;
+}
+
+
+/* 获取验证码 */
+.getpwd {
+	width: 70px;
+	height: 44px;
+	background-color: #e4e4e4;
+	color: #969696;
+	font-size: 12px;
+	border: none;
+	position: absolute;
+	right: 33px;
+	top: 90px;
+	padding: 5px;
+	cursor: pointer;
+}
+/* 底部 */
+.alter {
+	height: 10px;
+	width: 100%;
+	background-color: white;
+}
+.bottom p:first-child {
+	margin-top: 40px;
+}
+.bottom p{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #959595;
+}
+/* 透明遮罩层 */
+.touming {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 98%;
+	z-index: 888;
+	background-color: #000000;
+	opacity: .5;
+	margin-top: -25px;
+}

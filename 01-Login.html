@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>海南残联</title>
+		<link rel="shortcut icon" href="img/icon/ico.png">
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/01-login.css"/>
+		<link rel="stylesheet" type="text/css" href="css/dialog.css"/>
+	</head>
+	<body>
+		<div class="touming"></div>
+		<!-- 顶部 -->
+		<div class="top ">
+			<div class="container">
+				<div class="top_img">
+					<a href="03-main.html"><img src="img/index/logo.png" ></a>
+				</div>
+				<div class="top_btn">
+					<ul class="clearfix">
+						<a href="03-main.html" class="active"><li>首页</li></a>
+						<a href="04-mujuan.html"><li>募捐活动</li></a>
+						<a href="06-1teamMain.html"><li>志愿者团队</li></a>
+						<a href="lianxi.html"><li>联系我们</li></a>
+					</ul>
+				</div>
+				<div class="top_search  clearfix">
+					<input type="text" placeholder="搜索助残活动"/>
+					<img src="img/shouye/icon.jpg" >
+					<a href="01-Login.html"><button class="login">用户登录</button></a>
+					<a href="02-register.html"><button class="register">用户注册</button></a>
+				</div>
+			</div>
+		</div>
+		<!-- banner -->
+		<div class="banner">
+			<div class="container">
+				<div class="box">
+					<span class=" account">动态密码登录</span>
+					<span class="active account">账号登录</span>
+					
+					<div style=" display: none; position: relative;">
+						<input type="text" placeholder="手机号" class="input_phone">
+						<input type="password" placeholder="动态密码" class="input_pwd" />
+						<button class="getpwd">获取验证码</button>
+						<button class="login_btn">登录</button>
+						<p class="free_register"><a href="02-register.html">免费注册</a></p>
+					</div>
+					<div style="display: block;">
+						<input type="text" placeholder="手机号" id="user" class="input_phone">
+						<p class="errp">测试</p>
+						<input type="password" placeholder="密码" id="pwd" class="input_pwd" />
+						<p class="errp">测试</p>
+						<p class="forget_pwd">忘记登陆密码？</p>
+						<button class="login_btn" onclick="login()">登录</button>
+						<p class="free_register"><a href="02-register.html">免费注册</a></p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		 <div class="tanchu dialog">
+		         <p class="header">提示文字</p>
+		        <div class="footer">
+		            <button class="cancel">取消</button>
+		            <button class="confirm">确认</button>
+				</div>
+		</div>
+		<div class="alter"></div>
+		<!-- 底部 -->
+		<div class="container">
+			<div class="bottom">
+				<p>主办单位：海南省残疾人联合会 地址：海南省海口市海府路24号海汽大厦7-8-9楼</p>
+				<p>Copyright&copy; 2016 海南残联智慧平台 All Rights Reserved</p>
+			</div>
+		</div>
+		
+	</body>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/01-login.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+	// 获取验证码
+		getCode('.getpwd');
+	</script>
+</html>
